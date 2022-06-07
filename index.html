@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+function myFunction(){
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
 <meta charset="UTF-8">
 <title>Hello World!</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -14,7 +19,8 @@
   <p>This line is here to show how merging works</p>
   <p>bugfix1</p>
   <div><img src="img_hello_git.jpg" alt="Hello Git" style="width:100%;max-width:640px"></div>
-
+  <p id="demo">A paragraph</p>
+  <button type ="button" onclick="myFunction()">Try it</button>
 
 </body>
 </html>
